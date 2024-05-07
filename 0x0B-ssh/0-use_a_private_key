@@ -2,3 +2,8 @@
 # Connects to server 54.146.93.143  with key in ~/.ssh/school
 
 ssh -i ~/.ssh/school ubuntu@54.146.93.143
+
+
+
+
+
