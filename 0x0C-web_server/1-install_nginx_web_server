@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# Update the package list and install nginx
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+# Configure nginx to listen on port 80 and return "Hello World!" at the root
+echo 'server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+    index index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+        return 200 "Hello World!";
+    }
+
+    location /favicon.ico {
+        log_not_found off;
+        access_log off;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}' | sudo tee /etc/nginx/sites-available/default > /dev/null
+
+# Reload nginx to apply changes
+sudo service nginx restart
