@@ -23,7 +23,7 @@
 - [Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 - [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
-## Tasks
+<!-- ## Tasks
 
 <details>
 <summary><a href="./0-simply_match_school.rb">0. Simply matching School</a></summary><br>
@@ -75,4 +75,4 @@
   </ul>
   </li>
 </ul>
-</details>
+</details> -->

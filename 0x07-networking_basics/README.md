@@ -17,7 +17,7 @@
 - [What is ping/ICMP](https://en.wikipedia.org/wiki/Ping_%28networking_utility%29)
 - [Positional parameters](https://wiki.bash-hackers.org/scripting/posparams)
 
-## Tasks
+<!-- ## Tasks
 
 <details>
 <summary><a href="./0-OSI_model">0. OSI model</a></summary><br>
@@ -47,4 +47,4 @@
 <details>
 <summary><a href="./5-is_the_host_on_the_network">5. Is the host on the network</a></summary><br>
 <a href='https://postimg.cc/PCJ2YNZy' target='_blank'><img src='https://i.postimg.cc/FHg8tLHM/image.png' border='0' alt='image'/></a>
-</details>
+</details> -->
